@@ -1,0 +1,6 @@
+### add new types in Footer #####
+
+change files src/app/graphql/globals.ts ->playload/globals/Footer.ts -> payload/payload-types.ts
+
+> yarn payload generate:graphQLSchema
+> yarn generate:types

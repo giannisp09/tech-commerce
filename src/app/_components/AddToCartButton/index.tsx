@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 
 import { Product } from '../../../payload/payload-types'
 import { useCart } from '../../_providers/Cart'
-import { Button, Props } from '../Button'
+import { Button, Props } from '../Button_backup'
 
 import classes from './index.module.scss'
 

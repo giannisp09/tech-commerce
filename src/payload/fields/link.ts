@@ -65,7 +65,14 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
                 alignSelf: 'flex-end',
               },
             },
-          },
+           },
+            {
+               name: 'icon',
+               label:'Icon',
+               type: 'upload',
+               relationTo: 'media'
+            }
+          //},
         ],
       },
     ],
